@@ -1,0 +1,5 @@
+<form method="post" action="">
+    {% csrf_token %}
+    {{ blank_form.as_p }}
+    <input type="submit" name="Search" value="Submit"/>
+</form>
